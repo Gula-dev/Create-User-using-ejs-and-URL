@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create User</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-zinc-900 text-white flex justify-center items-center min-h-screen p-5">
+    <div class="w-full max-w-lg bg-zinc-800 p-8 rounded-xl shadow-lg">
+        <div class="nav mb-6 text-center">
+            <a class="text-blue-400 hover:text-blue-300 transition" href="/read">Read Users</a>
+        </div>
+        <h1 class="text-3xl font-bold tracking-tight mb-5 text-center">Create User</h1>
+        <form action="/create" method="post" class="space-y-4">
+            <input class="w-full px-5 py-2 border border-zinc-700 outline-none rounded-lg bg-transparent focus:ring-2 focus:ring-blue-500" type="text" name="name" placeholder="Name" required/>
+            <input class="w-full px-5 py-2 border border-zinc-700 outline-none rounded-lg bg-transparent focus:ring-2 focus:ring-blue-500" type="email" name="email" placeholder="Email" required/>
+            <input class="w-full px-5 py-2 border border-zinc-700 outline-none rounded-lg bg-transparent focus:ring-2 focus:ring-blue-500" type="text" name="img_url" placeholder="Image URL" required/>
+            <!-- <input class="px-5 py-2 bg-blue-500 rounded-lg ml-3" type="submit" value="Create User"/> -->
+            <button class="w-full px-5 py-2 bg-blue-500 hover:bg-blue-600 transition rounded-lg text-white font-semibold">Create User</button>
+        </form>
+    </div>
+    <script src="/public/javascripts/"></script>
+</body>
+
+</html>
