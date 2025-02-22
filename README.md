@@ -81,7 +81,7 @@ user-management-system/
 - path
 
 ## Author
-- [Your Name]
+- [Gulam Kadir]
 
 ## License
 This project is licensed under the MIT License.
